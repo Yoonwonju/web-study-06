@@ -8,7 +8,7 @@
 </head>
 <body>
 	<h2>회원의 정보 입력 폼</h2>
-	<form method="post" action="03_addMember.jsp">
+	<form method="post" action="03_addMemberServlet.jsp">
 		<table>
 			<tr>
 				<td>이름</td>
@@ -33,7 +33,7 @@
 			</tr>
 			<tr>
 				<td>전화번호</td>
-				<td><input type="text" name=" phone " size="11"></td>
+				<td><input type="text" name="phone" size="11"></td>
 			</tr>
 			<tr>
 				<td><input type="submit" value="전송">
